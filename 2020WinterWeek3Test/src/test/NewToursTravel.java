@@ -29,10 +29,11 @@ public class NewToursTravel {
         Thread.sleep(2000);
         driver.findElement(By.name("buyFlights")).click();
         System.out.println("Your reservation have been made, Ilya");
+		
         
         
         Thread.sleep(3000);
-        driver.close();
+       // driver.close();
 	}
 	
 
